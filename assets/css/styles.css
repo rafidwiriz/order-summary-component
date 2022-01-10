@@ -1,0 +1,92 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-image: url("../../assets/img/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-color: var(--pale-blue);
+  font-family: 'Red Hat Display', sans-serif;
+  height: 100vh;
+}
+
+@media (min-width: 375px) {
+  body {
+    background-image: url("../../assets/img/pattern-background-desktop.svg");
+  }
+}
+
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+article.image img {
+  max-width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card {
+  background-color: white;
+}
+
+@media (min-width: 500px) {
+  .container {
+    max-width: 450px;
+  }
+}
+
+article.body > h2 {
+  font-weight: 900;
+}
+
+article.body p {
+  font-weight: 500;
+  color: var(--desaturated-blue);
+}
+
+article.buttons > div > button {
+  width: 100%;
+  background-color: var(--bright-blue);
+}
+
+article.buttons a {
+  text-decoration: initial;
+  font-weight: 700;
+  color: var(--desaturated-blue);
+}
+
+article.body div.plans {
+  background-color: var(--very-pale-blue);
+}
+
+article.body h6 {
+  font-weight: 700;
+}
+
+article.body > div > a {
+  color: var(--bright-blue);
+  font-weight: 700;
+}
+
+article.body > div > a:hover {
+  color: var(--desaturated-blue);
+}
+
+article.buttons a:hover {
+  color: var(--dark-blue);
+}
+
+article.buttons > div > button:hover {
+  background-color: var(--desaturated-blue);
+}
+
